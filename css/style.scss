@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hide {
+    display: none;
+}
+body {
+    color: white;
+    text-align: center;
+    background-image: url("../img/pelouse.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    h1 {
+        padding: 20px 0 50px;
+    }
+    img{
+        width: 90px;
+        height: auto;
+    }
+    .mole{
+        width: 90px;
+        height: 90px;
+    }
+    #taupi{
+        border: none;
+        background-color: transparent;
+        background-image: url("../img/250px-Taupiqueur-RFVF.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    #trioN{
+        border: none;
+        background-color: transparent;
+        background-image: url("../img/500px-Triopikeur-RFVF.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    #trioA{
+        border: none;
+        background-color: transparent;
+        background-image: url("../img/1200px-Triopikeur_d\'Alola-SL.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    div#game {
+        table {
+            width: 80vw;
+            height: 80vh;
+            margin: 0 auto;
+            // background-color: green;
+            &#three {
+                td {
+                    height: 33%;
+                    tr {
+                        width: 33%;
+                    }
+                }
+            }
+            &#four {
+                td {
+                    height: 25%;
+                    tr {
+                        width: 25%;
+                    }
+                }
+            }
+            &#five {
+                td {
+                    height: 20%;
+                    tr {
+                        width: 20%;
+                    }
+                }
+            }
+        }
+    }
+}

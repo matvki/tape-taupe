@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+</head>
+
+<body>
+    <h1>Bienvenue pour jouer a tape-taupe</h1>
+    <select name="gameBoard" id="gameBoard">
+        <option value="3">3x3</option>
+        <option value="4">4x4</option>
+        <option value="5">5x5</option>
+    </select>
+    <select name="gameDificulty" id="gameDificulty">
+        <option value="easy">Facile</option>
+        <option value="normal">Normal</option>
+        <option value="hard">Difficile</option>
+        <option value="godsens">Dieu le peut</option>
+    </select>
+    <button id="play">Jouer</button>
+    <p id="timer"></p>
+    <div id="game">
+
+    </div>
+    <button id="refresh" class="hide" onclick="refresh()">Re Jouer</button>
+    <script src="./play.js"></script>
+</body>
+
+</html>
