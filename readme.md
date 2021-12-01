@@ -1,5 +1,10 @@
 # Tape Taupe
 
+## Mise en place:
+
+- installer electron: `npm install --save-dev electron`
+- lancer l'application: `npm start`
+
 ## Cahier des charges
 
 - timer round
